@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <title>Statistika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="inputContainer">
+        <input type="text" id="numInput">
+        <button onclick="addNumsFromInput()">Přidat čísla</button>
+    </div>
+    <div id="tableOfValuesContainer">
+        <table id="tableOfValues">
+            <tr id="Xrow">
+                <th>X<sub>i</sub></th>
+            </tr>
+            <tr id="Nrow">
+                <th>N<sub>i</sub></th>
+            </tr>
+        </table>
+    </div>
+    <H2>Relativní četnosti</H2>
+    <p id="relativeCount"></p>
+    <H2>Aritmetický průměr</H2>
+    <p id="aritmeticAvg"></p>
+    <H2>Geometrický průměr</H2>
+    <p id="geometricAvg"></p>
+    <H2>Harmonický průměr</H2>
+    <p id="harmonicAvg"></p>
+    <H2>Variační rozpětí</H2>
+    <p id="variation"></p>
+    <H2>Modus</H2>
+    <p id="Modus"></p>
+    <H2>Medián</H2>
+    <p id="Median"></p>
+    <H2>Průměrná absoulutní odchylka</H2>
+    <p id="avgDifference"></p>
+    <H2>Rozptyl</H2>
+    <p id="spread"></p>
+    <H2>Směrodatná odchylka</H2>
+    <p id="difference"></p>
+    <H2>Variační koeficient</H2>
+    <p id="varCoeficient"></p>
+
+    <h4>Vytvořeno pro studijní účely Lukášem Knížetem, pro nahlášení chyby prosím využijte <a href="https://github.com/LukasKnize/statistika/issues/new">github issues</a> </h4>
+    <h6>Tato stránka používá službu google fonts, která může ukládat IP adresy, používáním této stránky souhlasíte se zpracováním toho údaje</h6>
+    <script src="main.js"></script>
+</body>
+</html>
